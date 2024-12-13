@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: red;
+    
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: blue;
+}
+
+#display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    background-color: pink;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
